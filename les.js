@@ -60,3 +60,92 @@
 
 //console.log(result) дз4.2
 
+//let result = "";  дз 5.1
+
+//for (let i = 20.5; i <= 30; i += 0.5) {
+//    result = result + i + " ";
+//}
+
+//console.log(result);
+
+
+//for (let i = 10; i <= 100; i += 10) {. дз 5.2
+//    console.log(i + " доларів = " + i * 26 + " гривень");
+//}
+
+
+
+//let n = +prompt("Ведите число от 1 до 100") 5.3 дз
+//for (let i = 1; i <= 100; i++)
+//if (i** <= n)
+//console.log("Веденное число ${n},в квадрате ${i}")
+
+
+//let n = +prompt("Введіть число"); 5.4 дз
+
+//let isPrime = true;
+
+//if (n <= 1) {
+//    isPrime = false;
+//}
+
+//for (let i = 2; i < n; i++) {
+//    if (n % i === 0) {
+//        isPrime = false;
+//        break;
+//    }
+//}
+
+//if (isPrime) {
+//    console.log(`${n} — просте число`);
+//} else {
+//    console.log(`${n} — не просте число`);
+//}
+
+
+//let person = {. дз 6.1
+//    name: "Ihor",
+//    age: 21,
+//    lend: "Ukraine",
+
+//    showInfo() {
+//        console.log(`Информация пользователя: ${this.name}, ${this.age}, ${this.lend}`)
+//    }
+//}
+
+//person.showInfo()
+
+
+//const numbers = [1,2,3,4,5,6] дз 6.2
+
+//const evenNumbers = numbers.filter(function(number) {
+//    return number % 2 === 0;
+//});
+
+//console.log(evenNumbers);
+
+//let book = {. дз 6.3
+//    contacts: [
+//        {
+//            name: "gra five",
+//            phone: "0934243696",
+//            email: "Tkachenko@gmail.com"
+//        }
+//    ],
+
+//    findContact(name) {
+//        return this.contacts.find(contact => contact.name === name);
+//    },
+
+//    addContact(contact) {
+//        this.contacts.push(contact);
+//    }
+//}
+
+//book.addContact({
+//    name: "cs",
+//    phone: "0985881806",
+//    email: "Buzova@gmail.com"
+//});
+
+//console.log(book.findContact("cs"));
