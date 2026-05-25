@@ -149,3 +149,19 @@
 //});
 
 //console.log(book.findContact("cs"));
+
+
+ 
+//function func(text, symbols) { дз 7.1
+//    let result = "";
+
+//    for (let char of text) {
+//        if (!symbols.includes(char)) {
+//            result += char;
+//        }
+//    }
+
+//    return result;
+//}
+
+//console.log(func("Hello world", ["l", "d"]));
