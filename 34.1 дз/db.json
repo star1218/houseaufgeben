@@ -1,0 +1,85 @@
+{
+  "destinations": [
+    {
+      "id": "1",
+      "city": "Frankfurt",
+      "country": "Germany"
+    },
+    {
+      "id": "2",
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    {
+      "id": "3",
+      "city": "Vienna",
+      "country": "Austria"
+    },
+    {
+      "id": "4",
+      "city": "Prague",
+      "country": "Czech Republic"
+    },
+    {
+      "id": "5",
+      "city": "Paris",
+      "country": "France"
+    },
+    {
+      "id": "6",
+      "city": "Barcelona",
+      "country": "Spain"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "1",
+      "name": "Skyline Grand Frankfurt",
+      "destination": "Frankfurt",
+      "price": 119,
+      "rating": 4.7,
+      "description": "Modern hotel near the city centre."
+    },
+    {
+      "id": "2",
+      "name": "Berlin Urban House",
+      "destination": "Berlin",
+      "price": 94,
+      "rating": 4.5,
+      "description": "Comfortable hotel for a city trip."
+    },
+    {
+      "id": "3",
+      "name": "Vienna Imperial Stay",
+      "destination": "Vienna",
+      "price": 135,
+      "rating": 4.8,
+      "description": "Elegant stay in the heart of Vienna."
+    },
+    {
+      "id": "4",
+      "name": "Prague Riverside",
+      "destination": "Prague",
+      "price": 87,
+      "rating": 4.6,
+      "description": "Cozy rooms close to the old town."
+    },
+    {
+      "id": "5",
+      "name": "Paris Lumiere",
+      "destination": "Paris",
+      "price": 149,
+      "rating": 4.7,
+      "description": "Stylish hotel for your Paris journey."
+    },
+    {
+      "id": "6",
+      "name": "Barcelona Sol",
+      "destination": "Barcelona",
+      "price": 128,
+      "rating": 4.8,
+      "description": "Bright Mediterranean hotel near the centre."
+    }
+  ],
+  "bookings": []
+}
