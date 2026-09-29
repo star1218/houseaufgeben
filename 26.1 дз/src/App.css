@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #222;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.app h1 {
+  margin-bottom: 60px;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.emojis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.emoji-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.emoji-button {
+  border: none;
+  background: transparent;
+  font-size: 75px;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.2s;
+}
+
+.emoji-button:hover {
+  transform: scale(1.15);
+}
+
+.votes {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+@media (max-width: 800px) {
+  .emojis {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .app h1 {
+    font-size: 32px;
+  }
+}
