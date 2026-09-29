@@ -1,0 +1,21 @@
+{
+  "name": "homework-22",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Ihor Tkachenko",
+  "main": "22.1.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.5",
+    "css-minimizer-webpack-plugin": "^8.0.0",
+    "mini-css-extract-plugin": "^2.10.2",
+    "sass": "^1.105.0",
+    "sass-loader": "^17.0.1",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3"
+  }
+}
